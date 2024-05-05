@@ -1,0 +1,262 @@
+.container {
+    border-radius: 20px;
+    background-color: transparent; }
+    
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    border-radius: 20px;
+    color: #ec55f1; 
+    background-color: #2d2657;}
+
+.nav {
+    background-color: #000049;
+    border-radius: 20px;
+    width: fit-content;
+    padding-right: 30px;
+    color: #ebdede;
+    margin-left: 50px;
+}
+        
+.nav li {    
+    text-align: left;
+    display: inline;
+    font-size: 1.2em;
+    font-family: cursive, serif;
+    margin: auto 20px;
+    cursor: pointer; }
+
+li+li a{
+    color: #0000ff;
+    font-style: italic;
+    text-decoration: underline;}
+
+li+li a:hover {
+    color: #00ff00;}
+    
+body {
+    background-color: #cfc4b4; }
+
+.attribute b{
+    color: #000077;
+    font-style: italic; }
+
+h2 a{
+    font-size: 40px;
+    color: #3b3b3b;
+    margin: 50px;}
+
+#color h2 a:hover, #font h2 a:hover {
+    cursor: pointer;
+    margin-top: 30px;
+    color: #b4a800; }
+
+h3 {
+    font-size: 25px;
+    font-family: monospace;
+    margin-bottom: 0; 
+    color: #490000; }
+
+p {
+    font-size: 15px;
+    font-family: cursive, serif;
+    color: #000000; }
+
+.table { 
+    border-radius: 40px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    text-align: center;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    table-layout: fixed;
+    background-color: white; 
+    color: #f3eeeb;}
+
+.tablehead th {
+    font-family: "Playfair_Display", serif;
+    font-size: 35px; 
+    color: #9e9e9e;
+    font-weight: 400; }  
+
+tbody{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+tr {  
+    height: 75px;
+    font-size: 20px; }
+         
+#red th {background-color: #ff0000; }
+#red td {background-color: #d60000; }
+#red td+td {background-color: #970000; }
+#red td+td+td {background-color: #690000; } 
+#red td+td+td+td {background-color: #490000; }
+
+#green th {background-color: #00ff00; }
+#green td {background-color: #00c000; }
+#green td+td {background-color: #008800; }
+#green td+td+td {background-color: #007400; }
+#green td+td+td+td {background-color: #003a00; }
+
+#blue th {background-color: #0000ff; }
+#blue td {background-color: #0000d1; }
+#blue td+td {background-color: #0000af; }
+#blue td+td+td {background-color: #000077; }  
+#blue td+td+td+td{background-color: #000049; }
+
+#white {background-color: #ffffff; color: #161515; }
+#white td {background-color: #f3eeeb; }
+#white td+td {background-color: #e9e3db; }
+#white td+td+td {background-color: #dad2c8; }
+#white td+td+td+td {background-color: #cfc4b4; }
+
+#black {color: #ffffff; background-color: #000000; }
+#black td {background-color: #161515; }
+#black td+td {background-color: #1f1c1c; }
+#black td+td+td {background-color: #332d2d; }
+#black td+td+td+td {background-color: #362f2f; }
+
+#grey {background-color: #808080; color: #000000; }
+#grey td {background-color: #8f8f8f; }
+#grey td+td {background-color: #9e9e9e; }
+#grey td+td+td{background-color: #a8a8a8; }
+#grey td+td+td+td{background-color: #bebebe; }
+
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 100px;  
+    background-color: transparent;
+    background-image: none;
+    border-radius: 20px;
+    padding-top: 0%;
+    align-items: center
+}
+
+#Roboto{justify-content: ;
+    margin: 0px 10px;
+    width: 700px;
+}
+#Roboto h3{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.3em;
+    color: olive;
+}
+
+.Robolist li{   
+    list-style-type: upper-roman;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    line-height: 1.5em;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.Robolist li+li{
+    font-weight: 400;
+}
+
+.Robolist li+li+li{
+    font-weight: 400;
+    font-style: italic;
+}
+
+.Robolist li+li+li+li{
+    font-weight: 600;
+    font-style: normal;
+}
+
+#Playfair{
+    margin: 0px 10px;
+    width: auto;
+}
+
+#Playfair h3{
+    font-family: "Playfair_Display", serif;
+    font-weight: 400;
+    font-size: 3.3em;
+}
+
+.Playfair li{
+    font-family: "Playfair_Display", serif;
+    list-style-type: lower-latin;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.Playfair li+li{
+    font-weight: 600;
+}
+
+.Playfair li+li+li{
+    font-weight: 600;
+    font-style: italic;
+}
+
+#Cookie{
+    margin: 0px 10px;
+    width: auto;
+}
+
+#Cookie h3{
+    font-family: "Cookie";
+    font-weight: 400;
+    font-size: 3.3em;
+    color: #008800;
+}
+
+.Cookie li{
+    font-family: "Cookie";
+    font-weight: 400;
+    font-size: 2em;
+    list-style-type: upper-alpha;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.Cookie li+li{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
