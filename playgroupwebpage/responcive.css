@@ -1,0 +1,140 @@
+html{
+      background-color: antiquewhite;
+      text-align: center;
+      overflow: scroll;
+      width: 100%;
+      margin: 0;
+      display: flex;
+}
+
+@media screen and (min-width:1000px){
+    html{  
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+      .container{
+            align-items: stretch;
+      }
+      #selfie {
+            display: flex;
+      }
+      #slide {
+            display: flex;
+            justify-content: flex-end;
+      }
+      }
+}
+
+/*topheader*/
+.banner {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      border-bottom: 2px solid black;
+      align-items: center;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+}
+
+.logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      background-image: url("playtime.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 50%;
+}
+
+.sponsor a{
+      max-height: 140px;
+      display: flex;
+      flex-direction: column;
+      color: #4b00009f;
+      font-size: 2rem;
+      font-weight: 200;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+.sponsor a img {
+      max-height: 140px;
+      display: flex;
+}
+
+#main_logo {
+      background-color: transparent;
+      display: flex;
+      font-size: 5rem;
+      font-family: cursive;
+      color: rgb(225, 75, 255);
+      text-shadow: 3px 3px 3px rgb(0, 0, 0);
+      flex-direction: column;
+}
+#main_logo:hover{
+      text-transform: uppercase;
+}
+
+
+.support {
+      font-size: 1rem;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+}
+
+
+/*nav*/
+
+.nav {
+      font-size: 2rem;
+      width: 100%;
+}
+
+.nav ul {
+      padding: 0%;
+      display: flex;
+      list-style: none;
+      flex-direction: row;
+      justify-content: center;
+      column-gap: 10%;
+}
+
+.nav ul a{
+      color: #000000;
+      text-decoration: underline dotted;
+      text-decoration-color: brown;
+}
+
+/*--main   about*/
+
+.container {
+      background-color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      padding-top: 5%;
+}
+#selfie{
+      display: flex;
+}
+
+.park{
+      display: flex;
+      margin-top: 5%;
+      flex-wrap: nowrap;
+      align-items: stretch;
+      flex-direction: row;
+}
+
+#bridge{
+      width: 50%;
+}
+
+#play-equipment{
+      width: 50%;
+}
