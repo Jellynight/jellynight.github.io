@@ -2,7 +2,7 @@
 
 ## I am a diesel mechanic learning to code.
 
-<p>I live in Western Australia in the little towm Kojonup</p>
+<p>I live in Western Australia in the little town called Kojonup</p>
 
 <p>My name is Michael Rose and started codingdecember 2023. 
   <br>
