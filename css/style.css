@@ -1,9 +1,47 @@
+/** @format */
+
 * {
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
+ text-align: center;
 }
 
 h1 {
-  border-bottom: 2px solid black;
+ border-bottom: 2px solid black;
+ margin-left: 10%;
+ margin-right: 10%;
+}
+
+#navigation {
+ margin-top: 5px;
+ margin-bottom: 10px;
+ height: 100px;
+ display: flex;
+ flex-direction: column;
+ overflow: hidden;
+}
+
+.navbanner {
+ margin-top: 0px;
+ height: 10px;
+}
+
+.navlist {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+}
+
+.navlist ul {
+ display: flex;
+ flex-wrap: nowrap;
+}
+
+.navlist ul li {
+ display: flex;
+ flex-direction: column;
+ font-size: small;
+}
+
+#about_container {
+ margin-left: 10%;
+ margin-right: 10%;
 }
