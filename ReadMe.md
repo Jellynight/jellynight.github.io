@@ -1,12 +1,12 @@
 <!-- @format -->
 
 <style>
-  * {
+  h1 {
     text-align: center;
   }
 </style>
 
-# Welcome!
+<h1>Welcome!</h1>
 
 <p>My name Is Michael and i'm from Western Australia. I have just finished my studies at Learning People and now ready to take on the world.
 
