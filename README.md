@@ -1,4 +1,3 @@
-# Hi Im Michael Rose 
 
 ## I am a diesel mechanic learning to code.
 
