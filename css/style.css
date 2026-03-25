@@ -16,6 +16,8 @@ h1 {
  flex-direction: column;
  overflow: hidden;
  justify-content: center;
+ border-bottom: 2px solid black;
+ border-bottom-width: 85%;
 }
 
 .navbanner {
@@ -23,21 +25,24 @@ h1 {
 }
 
 .navlist {
+ width: 100%;
  display: flex;
  flex-direction: row;
  flex-wrap: nowrap;
- justify-content: space-around;
 }
 
 .navlist ul {
+ width: 100%;
  display: flex;
  flex-wrap: nowrap;
+ padding: 0px;
 }
 
 .navlist ul li {
  display: flex;
  flex-direction: column;
- font-size: small;
+ width: 25%;
+ justify-content: center;
 }
 
 #about_container {
