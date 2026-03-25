@@ -11,23 +11,22 @@ h1 {
 }
 
 #navigation {
- margin-top: 5px;
- margin-bottom: 10px;
  height: 100px;
  display: flex;
  flex-direction: column;
  overflow: hidden;
+ justify-content: center;
 }
 
 .navbanner {
  margin-top: 0px;
- height: 10px;
 }
 
 .navlist {
  display: flex;
  flex-direction: row;
  flex-wrap: nowrap;
+ justify-content: space-around;
 }
 
 .navlist ul {
