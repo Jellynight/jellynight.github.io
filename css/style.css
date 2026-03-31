@@ -2,14 +2,13 @@
 
 * {
  text-align: center;
- width:85%;
+ width: 85%;
  margin: 10px auto;
 }
 
 h1 {
- border-bottom: 2px solid black;
- margin-left: 10%;
- margin-right: 10%;
+ width: 100%;
+ font-size: 2.8em;
 }
 
 #navigation {
@@ -19,7 +18,6 @@ h1 {
  justify-content: center;
  border-bottom: 2px solid black;
 }
-
 
 .navlist {
  width: 100%;
@@ -45,6 +43,15 @@ h1 {
 }
 
 #about_container {
- margin-left: 10%;
- margin-right: 10%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ border-bottom: 2px solid black;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.about {
+ margin-bottom: 20px;
+ font-size: 1.2em;
 }
