@@ -1,7 +1,7 @@
 <!-- @format -->
 
 # 👋 Welcome To My Git! 👋
-## 🇦🇺 Hi My Name Is Michael Rose 🇦🇺
+## Hi My Name Is Michael Rose 
 ### 🚀 Aspiring Developer
 
 ## 🚀 Career Objectives, 
