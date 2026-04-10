@@ -28,7 +28,7 @@ const getComputerChoice = () => {
 };
 
 //function name      parameters multible     functions symbol=>
-let determineWinner = (userChoice, computerChoice) => {
+const determineWinner = (userChoice, computerChoice) => {
  //function
  if (userChoice === computerChoice) {
   //         string
@@ -62,7 +62,7 @@ let determineWinner = (userChoice, computerChoice) => {
  }
 };
 
-let playGame = () => {
+const playGame = () => {
  const userChoice = getUserChoice();
  const computerChoice = getComputerChoice();
  let response = "";
@@ -70,10 +70,8 @@ let playGame = () => {
  response = determineWinner(userChoice, computerChoice);
 
  const resultDiv = document.getElementById("result");
- 
+
  if (resultDiv) {
   resultDiv.innerHTML = `<p>You Threw: ${userChoice} /n The computer Threw: ${computerChoice}</p><>${response}</>`;
  }
 };
-
-
