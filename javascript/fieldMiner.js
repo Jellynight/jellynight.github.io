@@ -120,7 +120,7 @@ function startGame() {
  playerField.print();
 
  keyHandler = (event) => {
-  const key = event.key.toLowerCase();
+  const key = event.Key.toLowerCase();
   let direction = '';
   if (key === 'arrowup' || key === 'w') direction = 'u';
   else if (key === 'arrowdown' || key === 's') direction = 'd';
@@ -130,8 +130,5 @@ function startGame() {
    playerField.playerPath(direction);
   }
  };
-
  document.addEventListener('keydown', keyHandler);
 }
-
-startGame();
