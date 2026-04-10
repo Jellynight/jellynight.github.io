@@ -4,7 +4,7 @@
  text-align: center;
  margin: 10px 0px;
  background-color: black;
- opacity: 0.8;
+ opacity: 1;
 }
 
 #banner {
@@ -31,5 +31,6 @@
  font-size: 1.2em;
  color: beige;
  width: 100%;
+ opacity: 0.8;
 }
 
