@@ -19,7 +19,6 @@
   cursor: pointer;
 }
 
-#canvas {
-  border: 2px solid pink;
-  border-radius: 15px;
+#result {
+  color: beige;
 }
