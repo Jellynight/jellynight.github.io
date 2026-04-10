@@ -1,0 +1,25 @@
+.js-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.js-header {
+  color: cadetblue;
+  display: flex;
+}
+
+.script-list {
+  border: 2px solid rgb(204, 81, 204);
+  border-radius: 15px;
+  color: beige;
+  padding: 0px;
+}
+
+.script-list li:hover{
+  cursor: pointer;
+}
+
+#canvas {
+  border: 2px solid pink;
+  border-radius: 15px;
+}

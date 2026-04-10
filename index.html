@@ -5,7 +5,9 @@
  <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/header-style.css" />
+  <link rel="stylesheet" href="./css/js-box-style.css" />
+  <link rel="stylesheet" href="./css/nav-box-style.css"
   <title>Jellynight</title>
  </head>
  <body>
@@ -14,23 +16,24 @@
   </header>
   <div id="about_container">
    <p class="about">
-    My name is Michael Rose and started coding in december 2023. Possibly create my
-    own apps and/or get a job programming. I live in Western Australia in the little town called Kojonup I ahve just finished the Full Stack Career path from the online university Learning People. Have a look at my projects, wireframes and let me know what you think! If you would like to collaborate with me on a project or have any questions please get in touch @ Github. Thank you.
+    My name is Michael Rose, and I have just completed the Full Stack Career
+    path cartification from Learning People/Skillsoft 2026. Have a look at my
+    projects, wireframes and let me know what you think! If you would like to
+    collaborate with me on a project or have any questions please get in touch @
+    Github. Thank you.
    </p>
   </div>
-  <div id="navigation">
-   <nav class="navlist">
-    <h3 class="navbanner">Public Projects</h3>
-    <ul>
+  <div id="nav-box">
+   <nav class="nav">
+    <h3 for="projects" class="prj-header">My Project Links</h3>
+    <ul class="projects">
      <li>
       <a href="https://github.com/Jellynight/Jamming.git" target="_blank"
        >Spotify App (Jamming)</a
       >
      </li>
      <li>
-      <a href="https://github.com/Jellynight/Reddit-App.git" target="_blank"
-       >Reddit App</a
-      >
+      <a href="https://quiziqu.netlify.app/" target="_blank">QuizIQu App</a>
      </li>
      <li>
       <a
@@ -54,8 +57,8 @@
       </a>
      </li>
     </ul>
-    <h3 class="navbanner">High Fidelity Prototypes</h3>
-    <ul class="navlist">
+    <h3 class="hf-header">High Fidelity Prototypes</h3>
+    <ul class="high-fidelity">
      <li>
       <a
        href="https://www.figma.com/proto/QPbJ2qzSIgRSrYSCzv3hMO/Ridgeline?node-id=2-3&p=f&t=m5NoBWzeRNGiAv8z-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A3"
@@ -70,10 +73,18 @@
      </li>
     </ul>
    </nav>
+   <div class="js-box">
+    <h2 class="js-header">Javascript games</h2>
+    <ul class="script-list">
+      <li><a href="#" onclick="calculateSleepDept()">Sleep Time Calculator</a></li>
+      <li></li>
+      <li></li>
+    </ul> 
+    <div id="result"></div>
+    <canvas id="js-canvas" width="200" height="200"></canvas>
+   </div>
   </div>
-  
  </body>
- <footer>
-  
- </footer>
+ <script src="sleepTime.js"></script>
+ 
 </html>
