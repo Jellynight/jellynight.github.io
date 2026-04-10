@@ -7,13 +7,13 @@ const getSleepHours = (day) => {
 
 let getActualSleepHours = () => {
   return (
-    getSleepHours("monday") +
-    getSleepHours("tuesday") +
-    getSleepHours("wednesday") +
-    getSleepHours("thursday") +
-    getSleepHours("friday") +
-    getSleepHours("saturday") +
-    getSleepHours("sunday")
+    getSleepHours("Monday") +
+    getSleepHours("Tuesday") +
+    getSleepHours("Wednesday") +
+    getSleepHours("Thursday") +
+    getSleepHours("Friday") +
+    getSleepHours("Saturday") +
+    getSleepHours("Sunday")
   );
 };
 

@@ -1,25 +1,79 @@
+/** @format */
+
 .js-box {
-  display: flex;
-  flex-direction: column;
+ display: flex;
+ flex-direction: column;
 }
 
 .js-header {
-  color: cadetblue;
-  display: flex;
-  justify-content: center;
+ color: cadetblue;
+ display: flex;
+ justify-content: center;
 }
 
 .script-list {
-  border: 2px solid rgb(204, 81, 204);
-  border-radius: 15px;
-  color: beige;
-  padding: 10px 20px;
+ border: 2px solid rgb(204, 81, 204);
+ border-radius: 15px;
+ color: beige;
+ padding: 10px 20px;
 }
 
-.script-list li:hover{
-  cursor: pointer;
+.script-list li:hover {
+ cursor: pointer;
 }
 
-#result {
-  color: beige;
+.results {
+ font-size: 1.2em;
+ display: inline-block;
+ position: relative;
+ font-weight: bold;
+ color: beige;
+ background: black;
+ border: 2px solid transparent;
+}
+
+.results:before,
+.results:after {
+ content: "";
+ position: absolute;
+ left: -2px;
+ top: -2px;
+ background: linear-gradient(
+  45deg,
+  #fb0094,
+  #0000ff,
+  #00ff00,
+  #ffff00,
+  #ff0000,
+  #fb0094,
+  #0000ff,
+  #00ff00,
+  #ffff00,
+  #ff0000
+ );
+ background-size: 400%;
+ width: calc(100% + 4px);
+ height: calc(100% + 4px);
+ z-index: -1;
+ animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+ 0% {
+  background-position: 0 0;
+ }
+ 50% {
+  background-position: 400% 0;
+ }
+ 100% {
+  background-position: 0 0;
+ }
+}
+
+.results:after {
+ filter: blur(50px);
+}
+
+.results p {
+  background: transparent;
 }

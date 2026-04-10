@@ -104,12 +104,12 @@ let playerField;
 let keyHandler;
 
 function startGame() {
- const height = parseInt(prompt("Enter the height of the field (10-25):"));
- const width = parseInt(prompt("Enter the width of the field (50-200):"));
+ const height = parseInt(prompt("Enter the height of the field (10-30):"));
+ const width = parseInt(prompt("Enter the width of the field (50-80):"));
  const holePercent = parseFloat(prompt("Enter the percentage of holes (0-1, e.g., 0.2):"));
 
- if (isNaN(height) || height < 10 || height > 25 ||
-     isNaN(width) || width < 50 || width > 200 ||
+ if (isNaN(height) || height < 10 || height > 30 ||
+     isNaN(width) || width < 50 || width > 80 ||
      isNaN(holePercent) || holePercent < 0 || holePercent > 1) {
   alert("Invalid inputs. Please refresh and try again.");
   return;
@@ -120,7 +120,8 @@ function startGame() {
  playerField.print();
 
  keyHandler = (event) => {
-  const key = event.Key.toLowerCase();
+  const key = event.key.toLowerCase();
+  console.log(key)
   let direction = '';
   if (key === 'arrowup' || key === 'w') direction = 'u';
   else if (key === 'arrowdown' || key === 's') direction = 'd';
@@ -131,4 +132,7 @@ function startGame() {
   }
  };
  document.addEventListener('keydown', keyHandler);
+
+ 
 }
+

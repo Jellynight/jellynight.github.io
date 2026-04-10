@@ -51,6 +51,6 @@ const playGame = () => {
  const response = determineWinner(userChoice, computerChoice);
  const resultDiv = document.getElementById("result");
  if (resultDiv) {
-  resultDiv.innerHTML = `<p>You threw: ${userChoice || "nothing"}</p><p>Computer threw: ${computerChoice}</p><p>${response}</p>`;
+   resultDiv.innerHTML = `<p>You threw: ${userChoice || "nothing"}</p><p>Computer threw: ${computerChoice}</p><p>${response}</p>`;
  }
 };

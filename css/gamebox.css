@@ -1,5 +1,12 @@
+/** @format */
 
 #field-display {
-  color: blueviolet;
-  display: flex;
+ color: blueviolet;
+ font-family: "Courier New", Courier, monospace;
+ font-size: 20px; /* adjust to taste */
+ line-height: 20px; /* match font-size for perfect squares */
+ letter-spacing: 0px; /* prevents horizontal distortion */
+ white-space: pre;
 }
+
+

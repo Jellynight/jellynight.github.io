@@ -8,6 +8,7 @@
 }
 
 #banner {
+ font-family: "Saira Stencil", sans-serif;
  opacity: 1;
  width: 100%;
  font-size: 2em;
@@ -15,6 +16,7 @@
  margin: auto;
  display: flex;
  flex-direction: column;
+ text-shadow: #ffcc00 1px 0 10px;
 }
 
 #about_container {
@@ -32,6 +34,7 @@
  color: beige;
  width: 100%;
  opacity: 0.8;
+ font-family: sans-serif, Arial;
 }
 
 .footer {
@@ -39,6 +42,7 @@
  flex-direction: row;
  justify-content: space-around;
  padding: 10px 0px;
+ font-family: sans-serif, Arial;
 }
 
 .footer a {
@@ -47,6 +51,6 @@
 }
 
 .footer a:hover {
-  color: aqua;
-  text-decoration: underline;
+ color: aqua;
+ text-decoration: underline;
 }

@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="./css/js-box-style.css" />
   <link rel="stylesheet" href="./css/nav-box-style.css" />
   <link rel="stylesheet" href="./css/gamebox.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+   href="https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap"
+   rel="stylesheet" />
   <title>Jellynight</title>
  </head>
  <body>
@@ -21,7 +26,7 @@
     path cartification from Learning People/Skillsoft 2026. Have a look at my
     projects, wireframes and let me know what you think! If you would like to
     collaborate with me on a project or have any questions please get in touch @
-    Github.<br />Thank you.<br />Other wise go and click a game to play in the
+    Github.<br />Thank you.<br />Otherwise go and click a game to play in the
     javascript window &#128513;
    </p>
   </div>
@@ -76,52 +81,53 @@
     </ul>
    </nav>
    <div class="js-box">
-    <h2 class="js-header">Javascript games</h2>
-    <ul class="script-list">
-     <li>
-      <a
-       href="#"
-       onclick="
-        calculateSleepDept();
-        return false;
-       "
-       >Sleep Time Calculator</a
-      >
-     </li>
-     <li>
-      <a
-       href="#"
-       onclick="
-        playGame();
-        return false;
-       "
-       >Rock Paper Scissors</a
-      >
-     </li>
-     <li>
-      <a
-       href="#"
-       onclick="
-        howOld();
-        return false;
-       "
-       >How old were you in a year?</a
-      >
-     </li>
-     <li>
-      <a
-       href="#"
-       onclick="
-        startGame();
-        return false;
-       "
-       >Field Miner</a
-      >
-     </li>
-    </ul>
-    <div id="field-display"></div>
-    <div id="result"></div>
-    <canvas id="js-canvas" width="200" height="200"></canvas>
+    <div class="js-container">
+     <h2 class="js-header">Javascript games</h2>
+     <ul class="script-list">
+      <li>
+       <a
+        href="#"
+        onclick="
+         calculateSleepDept();
+         return false;
+        "
+        >Sleep Time Calculator</a
+       >
+      </li>
+      <li>
+       <a
+        href="#"
+        onclick="
+         playGame();
+         return false;
+        "
+        >Rock Paper Scissors</a
+       >
+      </li>
+      <li>
+       <a
+        href="#"
+        onclick="
+         howOld();
+         return false;
+        "
+        >How old were you in a year?</a
+       >
+      </li>
+      <li>
+       <a
+        href="#"
+        onclick="
+         startGame();
+         return false;
+        "
+        >Field Miner</a
+       >
+      </li>
+     </ul>
+     <pre id="field-display"></pre>
+     <div id="result" class="results"></div>
+    </div>
    </div>
   </div>
  </body>
