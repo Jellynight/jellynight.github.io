@@ -15,12 +15,17 @@ const howOld = () => {
  const age = getAge();
  const year = getYear();
  let yearBorn = thisYear - age;
-
+ let message = ""
  if (year >= thisYear) {
-  return `You will be ${year - yearBorn} in the year ${year}`;
+  message = `You will be ${year - yearBorn} in the year ${year}`;
  } else if (year < yearBorn) {
-  return `The year ${year} was ${yearBorn - year} years before you were born`;
+  message = `The year ${year} was ${yearBorn - year} years before you were born`;
  } else if (year > yearBorn) {
-  return `You were ${year - yearBorn} in the year ${year}`;
+  message = `You were ${year - yearBorn} in the year ${year}`;
  }
+
+ const resultDiv = document.getElementById("result");
+  if (resultDiv) {
+    resultDiv.innerHTML = `<>${message}</>`
+  }
 };
