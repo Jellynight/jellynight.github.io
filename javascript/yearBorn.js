@@ -11,6 +11,7 @@ function getYear() {
 }
 
 const thisYear = new Date.getFullYear();
+
 const howOld = () => {
  const age = getAge();
  const year = getYear();

@@ -1,14 +1,15 @@
 /** @format */
 
 //single parameter has no need for parenthasis
-const getUserChoice = (userInput) => {
+const getUserChoice = () => {
+ const userInput = prompt(`Choose either rock, paper or scissors:`);
  if (
   userInput === "rock" ||
   userInput === "paper" ||
   userInput === "scissors" ||
   userInput === "bomb"
  ) {
-  return userInput;
+  return parseFloat(userInput) || 0;
  } else {
   return `Idiot!. Type Rock, Paper or Scissors`;
  }
@@ -61,16 +62,18 @@ let determineWinner = (userChoice, computerChoice) => {
  }
 };
 
-let playGame = (userInput) => {
- const userChoice = getUserChoice(userInput.toString().trim());
+let playGame = () => {
+ const userChoice = getUserChoice();
  const computerChoice = getComputerChoice();
- console.log("You Threw: " + userChoice);
- console.log("The computer Threw: " + computerChoice);
- console.log(determineWinner(userChoice, computerChoice));
- console.log("");
- console.log("choose either rock, paper or scissors");
+ let response = "";
+
+ response = determineWinner(userChoice, computerChoice);
+
+ const resultDiv = document.getElementById("result");
+ 
+ if (resultDiv) {
+  resultDiv.innerHTML = `<p>You Threw: ${userChoice} /n The computer Threw: ${computerChoice}</p><>${response}</>`;
+ }
 };
 
-console.log("choose either rock, paper or scissors");
 
-process.stdin.on("data", playGame);
